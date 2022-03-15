@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/react': ^17.0.40
   '@types/react-dom': ^17.0.13
+  cross-env: ^7.0.3
   css-loader: ^6.7.1
   html-webpack-plugin: ^5.5.0
   react: ^17.0.2
@@ -21,6 +22,7 @@ dependencies:
 devDependencies:
   '@types/react': 17.0.40
   '@types/react-dom': 17.0.13
+  cross-env: 7.0.3
   css-loader: 6.7.1_webpack@5.70.0
   html-webpack-plugin: 5.5.0_webpack@5.70.0
   style-loader: 3.3.1_webpack@5.70.0
@@ -706,6 +708,14 @@ packages:
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+    dev: true
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
     dev: true
 
   /cross-spawn/7.0.3:
